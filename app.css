@@ -1,0 +1,256 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.outer-div {
+  max-width: 1000px;
+  min-width: 1000px;
+  max-height: 1500px;
+  min-height: 1500px;
+  background-image: url('./images/MyWebNow_Background.png');
+  background-repeat:no-repeat;
+  width: 70%;
+  margin: auto;
+}
+
+.main-div {
+  width: 70%;
+  margin: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 76% 24%;
+}
+
+nav {
+  padding-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.logo {
+  margin-right: 235px;
+}
+
+.nav-group1 {
+  margin-right: 25px;
+}
+
+.nav-group2 {
+  margin-left: 35px;
+  margin-right: 15px;
+}
+
+#support {
+  width: 70px;
+  height: 30px;
+  border-radius: 2px;
+  background-color: rgb(113,205,134);
+  border-color: rgb(113,205,134);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+#support:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.centered-content {
+  text-align: center;
+}
+
+.centered-content h1 {
+  width: 300px;
+  margin: 100px auto 30px auto;
+  font-weight: 900;
+  color: white;
+}
+
+.centered-content button {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.centered-content button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+form {
+  margin-bottom: 135px;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  border-radius: 8px;
+  border-color: white;
+  margin-right: 5px;
+}
+
+form button {
+  width: 70px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: rgb(113,205,134);
+  border-color: rgb(113,205,134);
+  color: white;
+}
+
+h6 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.down-arrow {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(113,205,134);
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.down-arrow:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#about {
+  margin: 80px auto 30px auto;
+  width: 500px;
+  font-size: 18px;
+  color: grey;
+}
+
+.create {
+  width: 170px;
+  height: 25px;
+  background-color: rgb(76,58,205);
+  border-radius: 5px;
+  color: white;
+}
+
+hr {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 100px auto 5px auto;
+  color: grey;
+}
+
+.four-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin-bottom: 50px;
+}
+
+.four-grid-item {
+  background-color: rgb(251,251,252);
+  border-color: rgb(237,237,239);
+  border-style: solid;
+  border-width: thin;
+  color: black;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.four-grid-item:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.four-grid-item img {
+  width: 90px;
+  height: 90px;
+  margin: 20px 10px auto auto;
+}
+
+.four-grid-item h5 {
+  margin-bottom: 0px;
+}
+
+.four-grid-item p {
+  color: grey;
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 10px 10px 10px 0;
+  margin-top: 0;
+}
+
+.two-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.two-grid-container div p:first-child {
+  color: rgb(133, 123, 209);
+}
+
+.two-grid-container p {
+  font-size: 20px;
+  color: rgb(76,58,205);
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 110px;
+}
+
+.two-grid-container button {
+  margin-top: 18px;
+}
+
+.two-grid-container button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.contact {
+  width: 100px;
+  height: 25px;
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(76,58,205);
+  margin-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.five-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 20px;
+  margin-top: 80px;
+}
+
+footer {
+  color: white;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+footer div p:first-child {
+  font-weight: bold;
+}
+
+.five-grid-container img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-info img {
+  margin-right: 10px;
+}
+
+.street {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.address {
+  margin-left: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
